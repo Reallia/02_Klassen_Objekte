@@ -27,16 +27,16 @@ public class App {
       // System.out.println(cat1.name);
       // System.out.println(cat1.age);
       Cat cat = new Cat("Grizabella", 29);
-      cat.age = 32;
+
       // cat.name = "Grizabella";
       // cat.age = 29;
-      System.out.println(cat.tellYourName() + cat.space + cat.tellYourAge());
+      System.out.println(cat.getName() + cat.space + cat.getAge());
 
       System.out.println("---------------------");
 
       Cat cat1 = new Cat("Alonzo", 35);
       // cat1.name = "Alonzo";
       // cat1.age = 35;
-      System.out.println(cat1.tellYourName() + cat1.space + cat1.tellYourAge());
+      System.out.println(cat1.getName() + cat1.space + cat1.getAge());
    }
 }
