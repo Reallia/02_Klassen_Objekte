@@ -26,8 +26,11 @@ public class App {
       // Cat cat1 = new Cat();
       // System.out.println(cat1.name);
       // System.out.println(cat1.age);
-      Cat cat = new Cat("Grizabella", 29);
 
+      Cat cat = new Cat("Grizabela", 29);
+      System.out.println(cat.getName());
+      cat.setName("Grizabella");
+      
       // cat.name = "Grizabella";
       // cat.age = 29;
       System.out.println(cat.getName() + cat.space + cat.getAge());

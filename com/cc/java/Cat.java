@@ -23,7 +23,11 @@ public class Cat {
     }
 
     public int getAge() {
-        return age;
+        return this.age;        // entweder mit oder ohne this, 
+                                // weil mann schon im inneren ist
+                                // die methode guckt dann in die klasse 
+                                //ob eine passende variable
+                                // vorhanden ist.    
     }
 
     public void setAge(int age) {
